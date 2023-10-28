@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+}
+.container h1{
+    text-align: left;
+}
+.container #fliter input{
+    /* width: 30%; */
+    float: right;
+}
+.style{width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 0.1rem 0.2rem;
+    margin: auto;
+}
+#submit{
+    cursor: pointer;
+}
+h1{
+    background-color: #333;
+    width: 100%;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+  }
+.style .btn{
+    align-items: center;
+    /* cursor: pointer; */
+}
+.style .item {
+
+    list-style: none;
+    text-align: left;
+    border: solid 1px #ccc;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+}
+.item li {
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #333;
+    padding: 0.5rem;}
+button {
+    margin: auto;
+    cursor: pointer;
+   background-color: #000;
+   width: 10%;
+   padding: 0.5rem;
+   border-radius: 3px;
+   color: #fff;
+}
+.delete{
+    float: right;
+    background-color: red;
+    padding: 0.3rem;
+    cursor: pointer;
+}
